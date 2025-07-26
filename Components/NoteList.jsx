@@ -41,6 +41,7 @@ const NoteList = () => {
           .map((item, index) => (
             <NoteItem
               key={index}
+              id={item.id}
               image={item.image}
               title={item.title}
               description={item.description}
